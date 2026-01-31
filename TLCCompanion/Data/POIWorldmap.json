@@ -1,0 +1,618 @@
+[
+  {
+    "Name": "BlackVeinStation",
+    "Localized": "Black Vein Station",
+    "PositionX": 494581.34,
+    "PositionY": -697350,
+    "PositionZ": -446.92084,
+    "IconName": "Indicator_OilRig"
+  },
+  {
+    "Name": "BrightonGrave",
+    "Localized": "Brighton Grave",
+    "PositionX": 579601.8,
+    "PositionY": -132292.5,
+    "PositionZ": -15726.84,
+    "IconName": "Indicator_Ruin"
+  },
+  {
+    "Name": "Cave01",
+    "Localized": "First Whisper",
+    "PositionX": 90575.43,
+    "PositionY": 55769.1,
+    "PositionZ": -8989.5625,
+    "IconName": "Indicator_Cave"
+  },
+  {
+    "Name": "Cave02",
+    "Localized": "Grey Mouth",
+    "PositionX": 1102642,
+    "PositionY": 42407.125,
+    "PositionZ": -20331.31,
+    "IconName": "Indicator_Cave"
+  },
+  {
+    "Name": "Cave03",
+    "Localized": "Far Horizon",
+    "PositionX": 1338764.4,
+    "PositionY": 547940.5,
+    "PositionZ": -15096.462,
+    "IconName": "Indicator_Cave"
+  },
+  {
+    "Name": "Cave04",
+    "Localized": "North Lantern",
+    "PositionX": 550497.2,
+    "PositionY": -816225.25,
+    "PositionZ": -9970.001,
+    "IconName": "Indicator_Cave"
+  },
+  {
+    "Name": "Cave05",
+    "Localized": "South Echo",
+    "PositionX": 742268.6,
+    "PositionY": 382261.03,
+    "PositionZ": -9545.08,
+    "IconName": "Indicator_Cave"
+  },
+  {
+    "Name": "Cave06",
+    "Localized": "Deep Silence",
+    "PositionX": 491246.84,
+    "PositionY": -197665.92,
+    "PositionZ": -14942.925,
+    "IconName": "Indicator_Cave"
+  },
+  {
+    "Name": "Cave07",
+    "Localized": "Twin Tide",
+    "PositionX": 1100502.1,
+    "PositionY": 277307.03,
+    "PositionZ": -10907.646,
+    "IconName": "Indicator_Cave"
+  },
+  {
+    "Name": "DepotA",
+    "Localized": "Central Warehouse Alpha",
+    "PositionX": 669397.2,
+    "PositionY": 228603.83,
+    "PositionZ": 94.784584,
+    "IconName": "Indicator_Bunker"
+  },
+  {
+    "Name": "DoverGrave",
+    "Localized": "Dover Grave",
+    "PositionX": 1361480.5,
+    "PositionY": 353811.4,
+    "PositionZ": -12339.449,
+    "IconName": "Indicator_Ruin"
+  },
+  {
+    "Name": "ExodusStation",
+    "Localized": "Exodus Station",
+    "PositionX": 1257928.2,
+    "PositionY": 481172.7,
+    "PositionZ": 5399.181,
+    "IconName": "Indicator_Rocket"
+  },
+  {
+    "Name": "GrowthContainer01",
+    "Localized": "Growth Container 01",
+    "PositionX": 545611.44,
+    "PositionY": -16682.758,
+    "PositionZ": 441.5447,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer01",
+    "Localized": "Growth Container 01",
+    "PositionX": 296034.28,
+    "PositionY": -16646.822,
+    "PositionZ": 407.25632,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer03",
+    "Localized": "Growth Container 03",
+    "PositionX": -104096.06,
+    "PositionY": -16634.834,
+    "PositionZ": 429.86633,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer04",
+    "Localized": "Growth Container 04",
+    "PositionX": 845354.2,
+    "PositionY": -16623.406,
+    "PositionZ": 497.4659,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer05",
+    "Localized": "Growth Container 05",
+    "PositionX": 1095476.8,
+    "PositionY": -16733.82,
+    "PositionZ": 353.12604,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer06",
+    "Localized": "Growth Container 06",
+    "PositionX": 1495063.8,
+    "PositionY": -16926.393,
+    "PositionZ": 683.116,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer07",
+    "Localized": "Growth Container 07",
+    "PositionX": 695606.7,
+    "PositionY": -166621.95,
+    "PositionZ": 522.70984,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer08",
+    "Localized": "Growth Container 08",
+    "PositionX": 695749.94,
+    "PositionY": -416454.75,
+    "PositionZ": 1076.0415,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer09",
+    "Localized": "Growth Container 09",
+    "PositionX": 695687.06,
+    "PositionY": -816572.25,
+    "PositionZ": 880.82214,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer10",
+    "Localized": "Growth Container 10",
+    "PositionX": 695504.94,
+    "PositionY": 133264.42,
+    "PositionZ": 417.7597,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer11",
+    "Localized": "Growth Container 11",
+    "PositionX": 695312.3,
+    "PositionY": 383013.1,
+    "PositionZ": 483.32654,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "GrowthContainer12",
+    "Localized": "Growth Container 12",
+    "PositionX": 695386.5,
+    "PositionY": 783130.56,
+    "PositionZ": 427.44162,
+    "IconName": "Indicator_GrowthContainer"
+  },
+  {
+    "Name": "HabitatNode-05-14.5",
+    "Localized": "Habitat Node 05 X",
+    "PositionX": 913921.2,
+    "PositionY": -565680.6,
+    "PositionZ": -273.1968,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode-38-98",
+    "Localized": "Habitat Node-38-98",
+    "PositionX": 85684.805,
+    "PositionY": -371152.72,
+    "PositionZ": -3.881214E-07,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode01",
+    "Localized": "Habitat Node 01-2.5",
+    "PositionX": 683490.2,
+    "PositionY": -776147.3,
+    "PositionZ": 1226.0646,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode02",
+    "Localized": "Habitat Node 02-23",
+    "PositionX": 479228.6,
+    "PositionY": -481376,
+    "PositionZ": 1248.8027,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode03",
+    "Localized": "Habitat Node 03-12.3",
+    "PositionX": 978121.9,
+    "PositionY": 155008.39,
+    "PositionZ": 539.48065,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode04",
+    "Localized": "Habitat Node 04-7",
+    "PositionX": 825995.7,
+    "PositionY": -141738.17,
+    "PositionZ": 609.2721,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode06",
+    "Localized": "Habitat Node 06-3.5",
+    "PositionX": 234981,
+    "PositionY": 44421.46,
+    "PositionZ": -4.8E-05,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode08",
+    "Localized": "Habitat Node 08-16",
+    "PositionX": 1304088.1,
+    "PositionY": 214384.81,
+    "PositionZ": 528.92706,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode09",
+    "Localized": "Habitat Node 09-4",
+    "PositionX": 824088.7,
+    "PositionY": 162962.75,
+    "PositionZ": 409.48083,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode10",
+    "Localized": "Habitat Node 10-4",
+    "PositionX": 307763,
+    "PositionY": -305948,
+    "PositionZ": 0,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HabitatNode14",
+    "Localized": "Habitat Node 14-7",
+    "PositionX": 1040719.2,
+    "PositionY": 504152.97,
+    "PositionZ": 563.90607,
+    "IconName": "Indicator_CrateStack"
+  },
+  {
+    "Name": "HamptonGrave",
+    "Localized": "Hampton Grave",
+    "PositionX": 1023649.94,
+    "PositionY": 193247.2,
+    "PositionZ": -13392.5625,
+    "IconName": "Indicator_Ruin"
+  },
+  {
+    "Name": "HeliosReserve24",
+    "Localized": "Helios Reserve Lyra",
+    "PositionX": 1206056.6,
+    "PositionY": 291266.72,
+    "PositionZ": 1034.9926,
+    "IconName": "Indicator_SolarPanel"
+  },
+  {
+    "Name": "HeliosReserveA",
+    "Localized": "Helios Reserve Orion",
+    "PositionX": 531099.6,
+    "PositionY": 98135.76,
+    "PositionZ": 987.5,
+    "IconName": "Indicator_SolarPanel"
+  },
+  {
+    "Name": "HeliosReserveC",
+    "Localized": "Helios Reserve Gemini",
+    "PositionX": 609768.44,
+    "PositionY": -257542.95,
+    "PositionZ": 1512.4926,
+    "IconName": "Indicator_SolarPanel"
+  },
+  {
+    "Name": "HeliosReserveD",
+    "Localized": "Helios Reserve Draco",
+    "PositionX": 623304.44,
+    "PositionY": -630784.2,
+    "PositionZ": -8.731149E-11,
+    "IconName": "Indicator_SolarPanel"
+  },
+  {
+    "Name": "LazarusComplex",
+    "Localized": "Lazarus Complex",
+    "PositionX": 695487.5,
+    "PositionY": -16687.5,
+    "PositionZ": 737.5,
+    "IconName": "Indicator_Scanner"
+  },
+  {
+    "Name": "LincolnGrave",
+    "Localized": "Lincoln Grave",
+    "PositionX": 808094.5,
+    "PositionY": 40866.027,
+    "PositionZ": -7979.324,
+    "IconName": "Indicator_Ruin"
+  },
+  {
+    "Name": "NavigationBeacon15",
+    "Localized": "Navigation Beacon 15",
+    "PositionX": 692324.56,
+    "PositionY": -525414.3,
+    "PositionZ": 809.80225,
+    "IconName": "Indicator_Radio"
+  },
+  {
+    "Name": "NavigationBeacon32",
+    "Localized": "Navigation Beacon 32",
+    "PositionX": 1090243.8,
+    "PositionY": 356788.47,
+    "PositionZ": 1342.1135,
+    "IconName": "Indicator_Radio"
+  },
+  {
+    "Name": "NavigationBeacon49",
+    "Localized": "Navigation Beacon 49",
+    "PositionX": 337689.9,
+    "PositionY": 66490.16,
+    "PositionZ": 981.9546,
+    "IconName": "Indicator_Radio"
+  },
+  {
+    "Name": "NomadsTower",
+    "Localized": "Nomads Tower",
+    "PositionX": 742306.6,
+    "PositionY": -306475.5,
+    "PositionZ": 0,
+    "IconName": "Indicator_Bunker"
+  },
+  {
+    "Name": "NorfolkGrave",
+    "Localized": "Norfolk Grave",
+    "PositionX": 591391.56,
+    "PositionY": -407802.56,
+    "PositionZ": -3796.829,
+    "IconName": "Indicator_Ruin"
+  },
+  {
+    "Name": "RefuelOutpostA",
+    "Localized": "Refuel Outpost Gamma",
+    "PositionX": 473484.16,
+    "PositionY": -59854.176,
+    "PositionZ": 1187.5,
+    "IconName": "Indicator_GasPump"
+  },
+  {
+    "Name": "RefuelOutpostB",
+    "Localized": "Refuel Outpost Delta",
+    "PositionX": 921087.9,
+    "PositionY": 392326.66,
+    "PositionZ": 1306.5,
+    "IconName": "Indicator_GasPump"
+  },
+  {
+    "Name": "RefuelOutpostC",
+    "Localized": "Refuel Outpost Theta",
+    "PositionX": 845435.6,
+    "PositionY": -445681.56,
+    "PositionZ": 1099.9926,
+    "IconName": "Indicator_GasPump"
+  },
+  {
+    "Name": "SalemGrave",
+    "Localized": "Salem Grave",
+    "PositionX": 1087015.6,
+    "PositionY": 550053.25,
+    "PositionZ": -13030.723,
+    "IconName": "Indicator_Ruin"
+  },
+  {
+    "Name": "SanctuaryDock12",
+    "Localized": "Sanctuary Dock 12",
+    "PositionX": 887149.5,
+    "PositionY": 271982.28,
+    "PositionZ": 4318.1685,
+    "IconName": "Indicator_Bunker"
+  },
+  {
+    "Name": "SanctuaryDock37",
+    "Localized": "Sanctuary Dock 37",
+    "PositionX": 115317.72,
+    "PositionY": 82661.99,
+    "PositionZ": 4318.1685,
+    "IconName": "Indicator_Bunker"
+  },
+  {
+    "Name": "SeedReserve_01",
+    "Localized": "Seed Reserve 01",
+    "PositionX": 593387.5,
+    "PositionY": 110385.836,
+    "PositionZ": -6711.8447,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_02",
+    "Localized": "Seed Reserve 02",
+    "PositionX": 287257.38,
+    "PositionY": -114234.26,
+    "PositionZ": -17805.521,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_03",
+    "Localized": "Seed Reserve 03",
+    "PositionX": 1183063.9,
+    "PositionY": 139360.03,
+    "PositionZ": -9534.543,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_04",
+    "Localized": "Seed Reserve 04",
+    "PositionX": 571523.2,
+    "PositionY": -131096.27,
+    "PositionZ": -16348.883,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_05",
+    "Localized": "Seed Reserve 05",
+    "PositionX": 805627.75,
+    "PositionY": -509844.12,
+    "PositionZ": -8864.978,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_06",
+    "Localized": "Seed Reserve 06",
+    "PositionX": 994747.56,
+    "PositionY": -81018.89,
+    "PositionZ": -7798.464,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_07",
+    "Localized": "Seed Reserve 07",
+    "PositionX": 1109295.9,
+    "PositionY": 535497.44,
+    "PositionZ": -30595.29,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_08",
+    "Localized": "Seed Reserve 08",
+    "PositionX": 574241.94,
+    "PositionY": -402193.44,
+    "PositionZ": -9352.367,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_09",
+    "Localized": "Seed Reserve 09",
+    "PositionX": 152580.42,
+    "PositionY": 149436.95,
+    "PositionZ": -6708.827,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_10",
+    "Localized": "Seed Reserve 10",
+    "PositionX": 909315.5,
+    "PositionY": 518983.8,
+    "PositionZ": -13334.6875,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_11",
+    "Localized": "Seed Reserve 11",
+    "PositionX": 709405.5,
+    "PositionY": -671063.6,
+    "PositionZ": -13883.683,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_12",
+    "Localized": "Seed Reserve 12",
+    "PositionX": 794600.4,
+    "PositionY": -55232.043,
+    "PositionZ": -8718.374,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_13",
+    "Localized": "Seed Reserve 13",
+    "PositionX": 522885.25,
+    "PositionY": -557641.8,
+    "PositionZ": -8576.931,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_14",
+    "Localized": "Seed Reserve 14",
+    "PositionX": 399884.3,
+    "PositionY": 171916.77,
+    "PositionZ": -5921.018,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_15",
+    "Localized": "Seed Reserve 15",
+    "PositionX": 966417.06,
+    "PositionY": 308275.62,
+    "PositionZ": -7915.818,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_16",
+    "Localized": "Seed Reserve 16",
+    "PositionX": 871644.7,
+    "PositionY": -354616.12,
+    "PositionZ": -10561.924,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_17",
+    "Localized": "Seed Reserve 17",
+    "PositionX": 424528.9,
+    "PositionY": -285525.53,
+    "PositionZ": -7140.7305,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_18",
+    "Localized": "Seed Reserve 18",
+    "PositionX": 934839.5,
+    "PositionY": -776179.9,
+    "PositionZ": -10802.229,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_19",
+    "Localized": "Seed Reserve 19",
+    "PositionX": 662967.4,
+    "PositionY": 331737.84,
+    "PositionZ": -7899.0693,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedReserve_20",
+    "Localized": "Seed Reserve 20",
+    "PositionX": 1260648.8,
+    "PositionY": 356893.03,
+    "PositionZ": -8403.403,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "SeedVaultA",
+    "Localized": "Seed Vault Prometheus",
+    "PositionX": 820161.44,
+    "PositionY": -649342.94,
+    "PositionZ": 762.499,
+    "IconName": "Indicator_GrowRoom"
+  },
+  {
+    "Name": "TheLastListener",
+    "Localized": "The Last Listener Station",
+    "PositionX": 1151952.5,
+    "PositionY": 115032.65,
+    "PositionZ": 424.89417,
+    "IconName": "Indicator_Radio"
+  },
+  {
+    "Name": "WinstonGrave",
+    "Localized": "Winston Grave",
+    "PositionX": 275947.34,
+    "PositionY": -117088.23,
+    "PositionZ": -12766.245,
+    "IconName": "Indicator_Ruin"
+  },
+  {
+    "Name": "YorkGrave",
+    "Localized": "York Grave",
+    "PositionX": 853848.1,
+    "PositionY": -741497.7,
+    "PositionZ": -11668.936,
+    "IconName": "Indicator_Ruin"
+  }
+]
