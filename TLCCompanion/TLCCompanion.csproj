@@ -42,6 +42,7 @@
     <None Remove="Images\Indicator_LowBattery.png" />
     <None Remove="Images\Indicator_Marker.png" />
     <None Remove="Images\Indicator_Marker_Dot.png" />
+    <None Remove="Images\Indicator_Maze.png" />
     <None Remove="Images\Indicator_OilRig.png" />
     <None Remove="Images\Indicator_Petrol.png" />
     <None Remove="Images\Indicator_Player.png" />
@@ -49,6 +50,7 @@
     <None Remove="Images\Indicator_Pressure.png" />
     <None Remove="Images\Indicator_Radio.png" />
     <None Remove="Images\Indicator_Rocket.png" />
+    <None Remove="Images\Indicator_Rocky.png" />
     <None Remove="Images\Indicator_Rotated_Square.png" />
     <None Remove="Images\Indicator_Rotated_Square_Filled.png" />
     <None Remove="Images\Indicator_Ruin.png" />
@@ -81,6 +83,7 @@
     <EmbeddedResource Include="Images\Indicator_LowBattery.png" />
     <EmbeddedResource Include="Images\Indicator_Marker.png" />
     <EmbeddedResource Include="Images\Indicator_Marker_Dot.png" />
+    <EmbeddedResource Include="Images\Indicator_Maze.png" />
     <EmbeddedResource Include="Images\Indicator_OilRig.png" />
     <EmbeddedResource Include="Images\Indicator_Petrol.png" />
     <EmbeddedResource Include="Images\Indicator_Player.png" />
@@ -88,6 +91,7 @@
     <EmbeddedResource Include="Images\Indicator_Pressure.png" />
     <EmbeddedResource Include="Images\Indicator_Radio.png" />
     <EmbeddedResource Include="Images\Indicator_Rocket.png" />
+    <EmbeddedResource Include="Images\Indicator_Rocky.png" />
     <EmbeddedResource Include="Images\Indicator_Rotated_Square.png" />
     <EmbeddedResource Include="Images\Indicator_Rotated_Square_Filled.png" />
     <EmbeddedResource Include="Images\Indicator_Ruin.png" />

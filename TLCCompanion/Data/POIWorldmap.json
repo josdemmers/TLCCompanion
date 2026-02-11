@@ -104,8 +104,8 @@
     "IconName": "Indicator_GrowthContainer"
   },
   {
-    "Name": "GrowthContainer01",
-    "Localized": "Growth Container 01",
+    "Name": "GrowthContainer02",
+    "Localized": "NDNs Node 30,-2",
     "PositionX": 296034.28,
     "PositionY": -16646.822,
     "PositionZ": 407.25632,
@@ -193,7 +193,7 @@
   },
   {
     "Name": "HabitatNode-05-14.5",
-    "Localized": "Habitat Node 05 X",
+    "Localized": "Habitat Node 05-14.5",
     "PositionX": 913921.2,
     "PositionY": -565680.6,
     "PositionZ": -273.1968,
@@ -336,6 +336,14 @@
     "IconName": "Indicator_Ruin"
   },
   {
+    "Name": "Maze1",
+    "Localized": "Transposium",
+    "PositionX": 1111059.6,
+    "PositionY": 219796.64,
+    "PositionZ": 152.6799,
+    "IconName": "Indicator_Maze"
+  },
+  {
     "Name": "NavigationBeacon15",
     "Localized": "Navigation Beacon 15",
     "PositionX": 692324.56,
@@ -374,6 +382,38 @@
     "PositionY": -407802.56,
     "PositionZ": -3796.829,
     "IconName": "Indicator_Ruin"
+  },
+  {
+    "Name": "QuarantineStackAmen",
+    "Localized": "Quarantine Stack Amen",
+    "PositionX": 1467637.8,
+    "PositionY": -380785.94,
+    "PositionZ": 307.8428,
+    "IconName": "Indicator_Rocky"
+  },
+  {
+    "Name": "QuarantineStackAurora",
+    "Localized": "Quarantine Stack Aurora",
+    "PositionX": 1599700.4,
+    "PositionY": -378025.88,
+    "PositionZ": -15.065677,
+    "IconName": "Indicator_Rocky"
+  },
+  {
+    "Name": "QuarantineStackChorus",
+    "Localized": "Quarantine Stack Chorus",
+    "PositionX": 1460131.5,
+    "PositionY": -315277.38,
+    "PositionZ": 54.800034,
+    "IconName": "Indicator_Rocky"
+  },
+  {
+    "Name": "QuarantineStackDawn",
+    "Localized": "Quarantine Stack Dawn",
+    "PositionX": 1494857.8,
+    "PositionY": -455417.56,
+    "PositionZ": 73.003525,
+    "IconName": "Indicator_Rocky"
   },
   {
     "Name": "RefuelOutpostA",
@@ -598,6 +638,14 @@
     "PositionY": 115032.65,
     "PositionZ": 424.89417,
     "IconName": "Indicator_Radio"
+  },
+  {
+    "Name": "UnlistedTower",
+    "Localized": "Unlisted Tower",
+    "PositionX": 1128687.6,
+    "PositionY": -207445.83,
+    "PositionZ": -64.64231,
+    "IconName": "Indicator_Rocky"
   },
   {
     "Name": "WinstonGrave",
