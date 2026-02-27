@@ -67,6 +67,7 @@ namespace TLCCompanion.ViewModels.Windows
 
         private void ApplicationClosingExecute()
         {
+            WeakReferenceMessenger.Default.Send(new ApplicationClosingMessage(new ApplicationClosingMessageParams()));
         }
 
         private void ApplicationLoadedExecute()

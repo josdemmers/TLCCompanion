@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLCCompanion.Services", "TL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLCCompanion.Interfaces", "TLCCompanion.Interfaces\TLCCompanion.Interfaces.csproj", "{DBC64E09-716D-4191-A677-D1140D2897C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLCCompanion.Entities", "TLCCompanion.Entities\TLCCompanion.Entities.csproj", "{04534818-3AEF-4A68-A9F8-B9C3AF9F0891}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,14 @@ Global
 		{DBC64E09-716D-4191-A677-D1140D2897C9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DBC64E09-716D-4191-A677-D1140D2897C9}.Release|x86.ActiveCfg = Release|Any CPU
 		{DBC64E09-716D-4191-A677-D1140D2897C9}.Release|x86.Build.0 = Release|Any CPU
+		{04534818-3AEF-4A68-A9F8-B9C3AF9F0891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04534818-3AEF-4A68-A9F8-B9C3AF9F0891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04534818-3AEF-4A68-A9F8-B9C3AF9F0891}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{04534818-3AEF-4A68-A9F8-B9C3AF9F0891}.Debug|x86.Build.0 = Debug|Any CPU
+		{04534818-3AEF-4A68-A9F8-B9C3AF9F0891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04534818-3AEF-4A68-A9F8-B9C3AF9F0891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04534818-3AEF-4A68-A9F8-B9C3AF9F0891}.Release|x86.ActiveCfg = Release|Any CPU
+		{04534818-3AEF-4A68-A9F8-B9C3AF9F0891}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

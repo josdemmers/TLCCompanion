@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using TLCCompanion.Entities;
 
 namespace TLCCompanion.Messages
 {
@@ -11,8 +12,6 @@ namespace TLCCompanion.Messages
 
     public class PlayerCoordinatesUpdatedMessageParams
     {
-        public float PositionX { get; set; } = 0;
-        public float PositionY { get; set; } = 0;
-        public float PositionZ { get; set; } = 0;
+        public PlayerCoordinates PlayerCoordinates { get; set; } = new PlayerCoordinates();
     }
 }

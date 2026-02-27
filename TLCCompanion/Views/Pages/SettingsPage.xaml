@@ -20,7 +20,41 @@
         <helpers:EnumToBooleanConverter x:Key="EnumToBooleanConverter" />
     </Page.Resources>
 
-    <StackPanel>
+    <StackPanel Width="Auto">
+        <TextBlock
+            FontSize="20"
+            FontWeight="Medium"
+            Text="General" />
+        <TextBlock Margin="0,12,0,0" Text="Dll location" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <RadioButton
+                Grid.Column="0"
+                Margin="0,12,0,0"
+                Command="{Binding ViewModel.ChangeDllCommand, Mode=OneWay}"
+                CommandParameter="Default"
+                Content="Default"
+                GroupName="dllLocation"
+                IsChecked="{Binding ViewModel.UseDefaultDllLocation, Mode=OneWay}" />
+            <RadioButton
+                Grid.Column="1"
+                Margin="0,8,0,0"
+                Command="{Binding ViewModel.ChangeDllCommand, Mode=OneWay}"
+                CommandParameter="Custom"
+                Content="Custom"
+                GroupName="dllLocation"
+                IsChecked="{Binding ViewModel.UseCustomDllLocation, Mode=OneWay}" />
+            <TextBox Grid.Column="2" x:Name="DllPathTextBox" Margin="0,8,1,0" Text="{Binding ViewModel.DllPath, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" FontSize="11" IsReadOnly="True" VerticalAlignment="Center" Focusable="False"/>
+            <Button Grid.Column="3" Margin="0,8,0,0" Content="..." Click="ButtonDllPath_Click" Width="Auto" MinWidth="20" VerticalAlignment="Center"></Button>
+        </Grid>
+        
         <TextBlock
             FontSize="20"
             FontWeight="Medium"

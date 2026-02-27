@@ -202,7 +202,7 @@ namespace TLCCompanion.ViewModels.Pages
 
     public class PlayerPointProvider : MemoryProvider, IDynamic, IDisposable
     {
-        private (float PositionX, float PositionY) _position = (0, 0);
+        private (double PositionX, double PositionY) _position = (0, 0);
         private readonly PeriodicTimer _timer = new PeriodicTimer(TimeSpan.FromMilliseconds(500));
 
         public event EventHandler? DataChanged;
@@ -219,8 +219,8 @@ namespace TLCCompanion.ViewModels.Pages
         {
             var playerCoordinatesUpdatedMessageParams = message.Value;
 
-            _position.PositionX = playerCoordinatesUpdatedMessageParams.PositionX;
-            _position.PositionY = playerCoordinatesUpdatedMessageParams.PositionY * -1;
+            _position.PositionX = playerCoordinatesUpdatedMessageParams.PlayerCoordinates.X;
+            _position.PositionY = playerCoordinatesUpdatedMessageParams.PlayerCoordinates.Y * -1;
         }
 
         private async Task RunTimerAsync()

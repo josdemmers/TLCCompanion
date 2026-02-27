@@ -2,6 +2,7 @@
 using System.Reflection.Metadata;
 using System.Windows.Input;
 using TLCCompanion.Interfaces;
+using TLCCompanion.Services;
 using Wpf.Ui.Abstractions.Controls;
 using Wpf.Ui.Appearance;
 
@@ -25,6 +26,7 @@ namespace TLCCompanion.ViewModels.Pages
             _settingsManager = settingsManager;
 
             // Init View commands
+            ChangeDllCommand = new RelayCommand<string>(ChangeDllExecute);
             ChangeThemeCommand = new RelayCommand<string>(ChangeThemeExecute);
         }
 
@@ -40,12 +42,28 @@ namespace TLCCompanion.ViewModels.Pages
 
         #region Properties
 
+        public ICommand ChangeDllCommand { get; }
+
         public ICommand ChangeThemeCommand { get; }
 
         public string AppVersion
         {
             get => _appVersion;
             set => SetProperty(ref _appVersion, value);
+        }
+
+        public string CurrentDll
+        {
+            get => _settingsManager.Settings.Dll;
+            set
+            {
+                _settingsManager.Settings.Dll = value;
+                OnPropertyChanged(nameof(CurrentDll));
+                _settingsManager.SaveSettings();
+
+                OnPropertyChanged(nameof(UseCustomDllLocation));
+                OnPropertyChanged(nameof(UseDefaultDllLocation));
+            }
         }
 
         public ApplicationTheme CurrentTheme
@@ -59,10 +77,31 @@ namespace TLCCompanion.ViewModels.Pages
             }
         }
 
+        public string DllPath
+        {
+            get => _settingsManager.Settings.DllPath;
+            set
+            {
+                _settingsManager.Settings.DllPath = value;
+                OnPropertyChanged(nameof(DllPath));
+                _settingsManager.SaveSettings();
+            }
+        }
+
         public bool IsInitialized
         {
             get => _isInitialized;
             set => SetProperty(ref _isInitialized, value);
+        }
+
+        public bool UseCustomDllLocation
+        {
+            get => CurrentDll.Equals("Custom");
+        }
+
+        public bool UseDefaultDllLocation
+        {
+            get => CurrentDll.Equals("Default");
         }
 
         #endregion
@@ -70,6 +109,11 @@ namespace TLCCompanion.ViewModels.Pages
         // Start of Event handlers region
 
         #region Event handlers
+
+        private void ChangeDllExecute(string? parameter)
+        {
+            CurrentDll = parameter ?? "Default";
+        }
 
         private void ChangeThemeExecute(string? parameter)
         {
